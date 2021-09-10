@@ -25,7 +25,7 @@ function resultDolarNrFuture(){
         cache: false,
         success: function (datas) {
             ///alert(user.name);
-            console.log(datas)
+            ///console.log(datas)
 
             $('#resultPosDol').html(datas);
 
